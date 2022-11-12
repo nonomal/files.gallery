@@ -39,7 +39,7 @@ return array(
   //'cache' => true,
   //'cache_key' => 0,
   //'storage_path' => '_files',
-  'files_exclude' => '/^(\.|check\.php|files\.js)$/',
+  'files_exclude' => '/^(\..{0,}|check\.php|files\.js)$/',
   'dirs_exclude' => '',
   //'allow_symlinks' => true,
   'title' => '谁人の网盘 - %name%[%count%,%path%]',
