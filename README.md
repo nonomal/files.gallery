@@ -9,3 +9,5 @@
 程序配置文件默认路径是 `_files\config\config.php` (本仓库的默认隐藏两个破解文件), 其他参数具体用法参照官网: https://www.files.gallery/docs/config/
 
 ![界面截图](https://user-images.githubusercontent.com/80263760/201483231-205936be-ae52-41f0-8d97-c1edaa131cde.png)
+
+最后,你看这个 0 Star↗️
