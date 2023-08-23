@@ -12,9 +12,9 @@ Program configuration can be found on the official website: https://www.files.ga
 
 程序配置请看官网: https://www.files.gallery/docs/config/ (被注释的都是配置缺省值)
 
-The default configuration will automatically hide folders and folders starting with "_" and "files.js" needed for cracking
+The default configuration will automatically hide files and folders starting with "_" and "files.js" needed for cracking
 
-默认配置会自动隐藏破解所需的文件夹以及以“_”开头的文件夹和“files.js”
+默认配置会自动隐藏破解所需的“files.js”以及以“_”开头的文件和文件夹
 
 ![image](https://github.com/albaz64/files.gallery/assets/80263760/7eee15ba-76e5-483d-9e99-ddd8255433dc)
 
