@@ -1,19 +1,23 @@
 # files.gallery
 
-> 基于PHP的单文件网盘,ver_0.7.0破解成品(最新版)
->
-> 在不更新验证逻辑的情况下,同步官方版本.
+> Single-file cloud storage based on PHP, ver_0.8.0 cracked version (August 15, 2023)
+> 
+> 基于PHP的单文件网盘,ver_0.8.0破解成品(August 15, 2023)
 
-作者一月份说了即将推出新版本,标记一下!
+作者一月份说了即将推出新版本,标记一下!(~~it's actually august~~
 
-同步新版本后会优化一下默认 config
+## Description (说明)
 
-## 说明
+Program configuration can be found on the official website: https://www.files.gallery/docs/config/ (Commented lines indicate default configuration values)
 
-程序破解原理是修改 JS 的验证函数, **check.php** 作用是替换官网验证服务器的返回内容.(写check代码: 两分钟; 找到正确的返回值: 超过一天)
+程序配置请看官网: https://www.files.gallery/docs/config/ (被注释的都是配置缺省值)
 
-程序配置文件默认路径是 `_files\config\config.php` (本仓库的默认隐藏两个破解文件), 其他参数具体用法参照官网: https://www.files.gallery/docs/config/
+The default configuration will automatically hide folders and folders starting with "_" and "files.js" needed for cracking
 
-![界面截图](https://user-images.githubusercontent.com/80263760/201483231-205936be-ae52-41f0-8d97-c1edaa131cde.png)
+默认配置会自动隐藏破解所需的文件夹以及以“_”开头的文件夹和“files.js”
+
+![image](https://github.com/albaz64/files.gallery/assets/80263760/7eee15ba-76e5-483d-9e99-ddd8255433dc)
+
+Finally, ⭐↗️
 
 最后,⭐↗️
