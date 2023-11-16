@@ -3,7 +3,7 @@
 // CONFIG / https://www.files.gallery/docs/config/
 // Uncomment the parameters you want to edit.
 return array(
-  //'root' => '',
+  // 'root' => '/app/storage',
   //'start_path' => false,
   //'username' => '',
   //'password' => '',
@@ -60,7 +60,7 @@ return array(
   //'filter_props' => 'name, filetype, mime, features, title',
   //'download_dir' => 'browser',
   //'download_dir_cache' => 'dir',
-  //'assets' => '',
+  // 'assets' => '/assets',
   'allow_upload' => true,
   'allow_delete' => true,
   'allow_rename' => true,
