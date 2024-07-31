@@ -399,38 +399,20 @@ class Login
       <article class="login-container"></article>
     </body>
     <script>
-      document.querySelector('.login-container').innerHTML = '\
-      <h1>Login</h1>\
-      <?php echo $this->form_alert(); ?> <
-      form class = "login-form" > \
-      <
-      input type = "text"
-      class = "input"
-      name = "fusername"
-      placeholder = "Username"
-      required autofocus spellcheck = "false"
-      autocorrect = "off"
-      autocapitalize = "off"
-      autocomplete = "off" > \
-        <
-        input type = "password"
-      class = "input"
-      name = "fpassword"
-      placeholder = "Password"
-      required spellcheck = "false"
-      autocomplete = "off" > \
-        <
-        input type = "hidden"
-      name = "client_hash"
-      value = "<?php echo $this->client_hash; ?>" > \
-        <
-        input type = "hidden"
-      name = "sidmd5"
-      value = "<?php echo $this->sidmd5; ?>" > \
-        <
-        button type = "submit"
-      class = "button" > Login < /button>\ < /
-        form > ';
+      document.querySelector('.login-container').innerHTML = `
+            <h1>Login</h1>
+            <?php echo $this->form_alert(); ?>
+            <form class="login-form">
+                <input type="text" class="input" name="fusername" placeholder="Username" 
+                    required autofocus spellcheck="false" autocorrect="off" autocapitalize="off" autocomplete="off" />
+                <input type="password" class="input" name="fpassword" placeholder="Password" 
+                    required spellcheck="false" autocomplete="off" />
+                <input type="hidden" name="client_hash" value="<?php echo $this->client_hash; ?>" />
+                <input type="hidden" name="sidmd5" value="<?php echo $this->sidmd5; ?>" />
+                <button type="submit" class="button">Login</button>
+            </form>
+        `;
+
       document.querySelector('.login-form').addEventListener('submit', (e) => {
         document.body.classList.add('form-loading');
         e.currentTarget.action = '<?php echo U::get('logout') ? strtok($_SERVER['REQUEST_URI'], '?') : $_SERVER['REQUEST_URI']; ?>';
